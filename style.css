@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: rgba(11, 11, 11, .9);
+}
+
+header{
+    margin: .5vw;
+    font-size: 0;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+    margin: 2rem;
+
+}
+
+header div{
+    width: 20rem;
+    
+}
+header div img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.full-size-div{
+    position: fixed;
+    left: 0px; top: 0px;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    z-index: 1;
+    background-color: rgba(0, 0, 0,0.9);
+}
+.full-size-img{
+    width: 50%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
